@@ -1,0 +1,90 @@
+/* General Stylings */
+body{
+    background-color: white;
+    font-family: Arial, sans-serif;
+    transition: 1s;
+    margin: 0;
+    padding: 150px;
+}
+.resume-container{
+    display: flex;
+    color: rgba(66, 28, 107, 0.774);
+    transition: calc(2s);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(148, 38, 38);
+}   
+.left-section{
+    background-color: rgba(83, 108, 136, 0.753);
+    padding: 20px;
+    transition: 2s;
+    width: 6cm;
+    text-align: center;
+    border-right: 5px solid rgb(151, 98, 151);
+}     
+.left-section p{
+    color: rgba(0, 0, 0, 0.685);
+}
+
+.Profile-Picture{
+    width: 165px;
+    height: 160px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 0 0 20px rgb(21, 22, 22);
+    transition: calc(2s);
+    margin-bottom: 20px;
+    border-image: round;
+}
+
+h1{
+    font-size: 30px;
+    color: rgb(78, 167, 135);
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h3{
+    font-size: 19px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: rgba(37, 62, 117, 0.719);
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(143, 43, 143);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ul{
+    list-style-type: fill round;
+
+    padding: 30px;
+    margin: 10px 0;
+}
+ul.li{
+    margin: 5px 0;
+    gap: 1rem;
+}
+.right-section{
+    width: 60%;
+    padding: 15px;
+}
+button{
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 20px rgb(24, 80, 102);
+    cursor: pointer;
+    margin: 10px;
+    font-size: 19px;
+}
+
+button:hover{
+    background-color: rgb(71, 70, 105);
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgb(161, 54, 54);
+    font-size: 19px;
+}
+
+
+
+
