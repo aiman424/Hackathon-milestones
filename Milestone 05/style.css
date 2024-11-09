@@ -1,0 +1,91 @@
+body {
+    font-family: 'Times New Roman', Times;
+    margin: 20px;
+    padding: 0;
+    background-color: rgba(209, 152, 126, 0.856);
+}
+
+form {
+    margin: auto;
+    background-color: rgba(103, 117, 117, 0.753);
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(57, 161, 101, 0.5);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    color: rgb(102, 60, 168);
+}
+
+fieldset {
+    border: 5px solid rgba(150, 201, 201, 0.452);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(73, 127, 173, 0.747);
+}
+
+legend {
+    font-weight: bold;
+    font-family: Georgia, Times;
+    text-align: left;
+    color: rgb(46, 7, 82);
+    font-size: x-large;
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: large;
+    color: rgb(48, 44, 48);
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    color: black;
+    width: calc(100% - 1px);
+    border: 1px solid rgb(96, 136, 151);
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    font-size: large;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: rgba(36, 30, 90, 0.651);
+    color: rgb(32, 28, 28);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(140, 0, 255, 0.5);
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times,;
+    padding: 10px;
+    cursor: pointer;
+    font-size: x-larger;
+}
+
+button :hover {
+    color: rgb(211, 224, 215);
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid rgb(91, 156, 182);
+    border-radius: 20px;
+    background-color: rgb(176, 167, 179);
+    box-shadow: 0 0 50px rgba(117, 179, 179, 0.452);
+    font-size: x-large;
+    font-style: inherit;
+    outline: none;
+}
